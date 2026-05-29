@@ -4,7 +4,7 @@ I have an inside joke on my friends' Discord server. Whenever anyone mentions th
 Very simple set-up (this is not a microservices application, eventually going to get this running on a K8S cluster).
 0. Install Docker and `docker-compose`.
 1. Clone this repository.
-2. Rename the file `.env.example` to `.env` and add your Discord token. _When scoping your Discord bot, make sure it has the `Server Members Intent` and `Message Content Intent.` When setting up an OAuth invite, make sure you note down the secret (it'll be your token) and scope the OAuth invite link to include `bot` and `manage roles`._
+2. Rename the file `.env.example` to `.env` and add your Discord token (you can find that under the Bot subcategory in the Dev portal. _When scoping your Discord bot, make sure it has the `Server Members Intent` and `Message Content Intent.` When setting up an OAuth invite. and scope the OAuth invite link to include `bot` and `manage roles`._
 3. On your host machine, you can use the following `docker-compose.yml` to get started:
 ```
 version: '3.8'
